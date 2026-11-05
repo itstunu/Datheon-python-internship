@@ -1,0 +1,67 @@
+{
+  "greeting": {
+    "patterns": ["hi", "hello", "hey", "howdy", "greetings", "good (morning|afternoon|evening)"],
+    "responses": [
+      "Hello! 👋 Welcome to Datheon Shop support. How can I help you today?",
+      "Hi there! What can I do for you today?",
+      "Hey! Ask me about shipping, returns, payments, warranty or opening hours."
+    ]
+  },
+  "business_hours": {
+    "patterns": ["when.*open", "when.*close", "what time.*(open|close)", "(business|opening|working|store) hours", "hours", "open.*(today|weekend|sunday|saturday)"],
+    "responses": [
+      "We're open Monday to Friday 9:00 AM - 6:00 PM, Saturday 10:00 AM - 4:00 PM, and closed on Sunday.",
+      "Our support team is available Mon-Fri 9 AM - 6 PM and Sat 10 AM - 4 PM. We're closed on Sundays."
+    ]
+  },
+  "shipping": {
+    "patterns": ["shipping", "ship", "deliver(y|ies|ed)?", "how long.*(ship|arrive|take|deliver)", "international.*ship", "shipping (cost|fees?|rates?)"],
+    "responses": [
+      "Standard shipping takes 3-5 business days and is free on orders over $50. Express shipping (1-2 days) costs $12.",
+      "We ship worldwide! Domestic orders arrive in 3-5 business days, international orders in 7-14 days."
+    ]
+  },
+  "returns": {
+    "patterns": ["return(s|ed|ing)?", "refunds?", "exchanges?", "send.*back", "money back", "return policy"],
+    "responses": [
+      "You can return any unused item within 30 days of delivery for a full refund. Just keep your receipt!",
+      "Returns are free within 30 days. Refunds are issued to your original payment method within 5-7 business days."
+    ]
+  },
+  "payment": {
+    "patterns": ["pay(ment)?s?", "how.*pay", "(credit|debit) cards?", "paypal", "accept.*(card|cash|paypal|visa|mastercard)"],
+    "responses": [
+      "We accept Visa, MasterCard, American Express, PayPal and Apple Pay. All payments are encrypted.",
+      "You can pay by credit/debit card or PayPal at checkout. We don't accept cash or cheques online."
+    ]
+  },
+  "warranty": {
+    "patterns": ["warrant(y|ies)", "guarantee", "defective", "broken", "repairs?", "stopped working"],
+    "responses": [
+      "All products include a 12-month manufacturer warranty covering defects in materials and workmanship.",
+      "Your item is covered by a 1-year warranty. If it's defective, contact us with your order number and we'll repair or replace it."
+    ]
+  },
+  "contact": {
+    "patterns": ["contact", "phone", "e-?mail", "support", "customer (service|care)", "speak.*(human|agent|someone|person)", "talk.*(human|agent|someone|person)", "call (you|us)"],
+    "responses": [
+      "You can reach us at support@datheonshop.example or call +1 (555) 010-0199 during business hours.",
+      "Contact our team by email at support@datheonshop.example, or phone +1 (555) 010-0199 (Mon-Fri, 9 AM - 6 PM)."
+    ]
+  },
+  "order_status": {
+    "patterns": ["track(ing)?.*order", "where.*my order", "order status", "tracking (number|code)"],
+    "responses": [
+      "You can track your order using the tracking link in your confirmation email, or in 'My Orders' on our website.",
+      "Once your order ships we email you a tracking number. Check 'My Orders' for live status."
+    ]
+  },
+  "thanks": {
+    "patterns": ["thanks?", "thank you", "thx", "cheers", "appreciate (it|that)"],
+    "responses": [
+      "You're welcome! 😊 Anything else I can help with?",
+      "Happy to help! Let me know if you have any other questions.",
+      "My pleasure! 🙌"
+    ]
+  }
+}
