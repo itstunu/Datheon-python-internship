@@ -1,7 +1,7 @@
 # chatbot.py
 """
 Rule-Based Support Chatbot - Datheon Python Internship, Task 4
-==============================================================
+=============================================================
 
 A customer-support bot that understands questions through regular
 expressions. All intents, patterns and replies live in sample_faq.json, so
