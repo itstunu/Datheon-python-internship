@@ -16,7 +16,7 @@ Notes
 * Output file: portfolio_summary.csv (written next to this script).
 
 Usage
------
+---
     python portfolio.py
     (type 'done' when you have entered all positions)
 """
