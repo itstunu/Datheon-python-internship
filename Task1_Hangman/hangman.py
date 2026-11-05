@@ -15,7 +15,7 @@ Features
 * Graceful handling of Ctrl+C and EOF (Ctrl+D / Ctrl+Z).
 
 Usage
------
+----
     python hangman.py
 """
 
